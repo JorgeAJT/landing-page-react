@@ -14,7 +14,7 @@ import tortillaImage from "../../img/tortilla-patatas.jpg"
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<div className="container pt-4 px-0">
 				<div className="row">
@@ -62,7 +62,7 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-		</div>
+		</>
 	);
 };
 
